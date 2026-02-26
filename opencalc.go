@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func opencalc() {
 	numbers := map[string]struct{}{}
 
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
