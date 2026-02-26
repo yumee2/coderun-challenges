@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func analytic() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 
 	convertToInt := func(val string) int {
