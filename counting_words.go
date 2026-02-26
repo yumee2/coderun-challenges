@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func counting_words() {
 	words := map[string]struct{}{}
 
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
